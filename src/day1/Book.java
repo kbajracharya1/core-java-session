@@ -1,6 +1,6 @@
 package day1;
 
-public class Books {
+public class Book {
 }
 
 
@@ -10,7 +10,7 @@ public class Books {
     -> Published Year
     -> Volume
     -> ISBN
-    -> Page Numbers
+    -> Number of Pages
     -> Book Type
     -> Edition
     -> Designer

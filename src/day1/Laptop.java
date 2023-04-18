@@ -13,9 +13,9 @@ public class Laptop {
     -> Battery
     -> Processor
     -> Resolution
-    -> GPU
+    -> Has GPU
     -> Weight
-    -> Touch Screen
+    -> Has Touch Screen
     -> Camera MPX
     -> Price
  */

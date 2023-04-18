@@ -10,5 +10,8 @@ public class Watch {
     -> Serial Number
     -> Version
     -> Charging Type
+    -> Battery Capacity
+    -> Have band or no
+   
 
  */
