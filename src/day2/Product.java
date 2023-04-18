@@ -10,5 +10,13 @@ public class Product {
     Discounted Price
     Images
     Size Available(M, L, XL, XXL)
+    Product Detail
+    Product Specification
+    Delivery Price
+    Vendor
+    Q&A Section
+    Reviews
+    Rating
+
      */
 }
