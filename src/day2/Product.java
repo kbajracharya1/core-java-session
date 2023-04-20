@@ -3,6 +3,8 @@ package day2;
 public class Product {
 
     /*
+    Product ID
+    SKU
     Name of the Product
     Price
     Quantity
@@ -11,12 +13,19 @@ public class Product {
     Images
     Size Available(M, L, XL, XXL)
     Product Detail
-    Product Specification
     Delivery Price
-    Vendor
-    Q&A Section
-    Reviews
+    Vendor ID
     Rating
+
+     */
+
+    /*
+    Behaviour
+        -> Like
+        -> Share
+        -> Buy
+        -> Comment
+        -> Add to cart
 
      */
 }
