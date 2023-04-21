@@ -1,16 +1,25 @@
 package day2;
 
 public class Rating {
-    /*
-    Product ID
+    long productId;
+    float averageRating;
+    long totalRatings;
+    long oneStarRating;
+    long twoStarRating;
+    long threeStarRating;
+    long fourStarRating;
+    long fiveStarRating;
+}
 
-    Average Rating
-    Total no of Ratings
-    No of one-star rating
-    No of two-star rating
-    No of three-star rating
-    No of four-star rating
-    No of five-star rating
+/*
+    Product ID (long)
+
+    Average Rating (float)
+    Total no of Ratings (long)
+    No of one-star rating (long)
+    No of two-star rating (long)
+    No of three-star rating (long)
+    No of four-star rating (long)
+    No of five-star rating (long)
 
      */
-}

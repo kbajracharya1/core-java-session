@@ -1,15 +1,25 @@
 package day2;
 
-public class Slider {
+import java.util.Date;
 
-    /*
-    Image URL
-    Shop Now button URL
-    Shop Button Enabled - true/false
-    Button Position - Left/Right/Center
-    Start Date
-    End Date
+public class Slider {
+    String imageUrl;
+    String shopNowButtonUrl;
+    boolean shopButtonEnabled;
+    String buttonPosition;
+    Date startDate;
+    Date endDate;
+}
+
+    /* States
+
+    Image URL (String)
+    Shop Now button URL (String)
+    Shop Button Enabled - true/false (boolean)
+    Button Position - Left/Right/Center (String)
+    Start Date (Date)
+    End Date (Date)
 
      */
-}
+
 
