@@ -1,6 +1,14 @@
 package day1;
 
 public class SoundSystem {
+    String brandName;
+    float volumeLevel;
+    float modelNumber;
+    long serialNumber;
+    String batteryType;
+    String chargerType;
+    float weight;
+    String dimension;
 }
 
 
