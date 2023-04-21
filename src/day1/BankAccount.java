@@ -1,6 +1,26 @@
 package day1;
 
+import java.net.PasswordAuthentication;
+import java.security.Signature;
+import java.util.List;
+
 public class BankAccount {
+    String accountNumber;
+    String accountType;
+    String accountHolderName;
+    String accountMaturity;
+    String routingNumber;
+    Signature signatureOfAccountNo;
+    String phoneNumber;
+    String addressOfAcHolder;
+    String userName;
+    PasswordAuthentication password;
+    double acBalance;
+    float transferLimit;
+    String photo;
+    String email;
+    String ssn;
+    List statements;
 }
 
 
