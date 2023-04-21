@@ -1,15 +1,25 @@
 package day2;
 
-public class Review {
-    /*
-    Product ID
+import java.util.Date;
 
-    Number of Stars
-    User ID
-    If verified purchase
-    Review Date
-    Review Detail
-    Number of Likes
+public class Review {
+    long productId;
+    float noOfStars;
+    String userId;
+    boolean ifVerifiedPurchase;
+    Date reviewDate;
+    String reviewDetail;
+    long noOfLikes;
+}
+    /*
+    Product ID (long)
+
+    Number of Stars (float)
+    User ID (String)
+    If verified purchase (boolean)
+    Review Date (date)
+    Review Detail (String)
+    Number of Likes (long)
 
      */
 
@@ -18,4 +28,4 @@ public class Review {
         -> Provide Review
 
      */
-}
+

@@ -1,15 +1,24 @@
 package day2;
 
 public class Menu {
+    long menuId;
+    String menuName;
+    long parentMenuId;
+    boolean isLeaf;
+    String slug;
+}
+
+
+    //UUID - Unique String ID 32 characters
+
     /*
-    Menu Name
-    Menu ID
-    Parent Menu ID
-    Is Leaf(last menu) - False
-    Slug
-
-
+    Menu Name (String)
+    Menu ID (long)
+    Parent Menu ID (long)
+    Is Leaf(boolean, last menu) - False
+    Slug (String, unique URL, auto generated)
      */
+
 
     /*
     Women Fashion
@@ -56,6 +65,6 @@ public class Menu {
      */
 
 
-}
+
 
 
