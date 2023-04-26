@@ -11,7 +11,7 @@ public class Product {
     long stockAvailable;
     double discountedPrice;
     List images;
-    String sizeAvailable;
+    SizeAvailable sizeAvailable;
     String productDetail;
     float deliveryPrice;
     long vendorId;

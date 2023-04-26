@@ -5,8 +5,9 @@ import java.security.Signature;
 import java.util.List;
 
 public class BankAccount {
-    String accountNumber;
-    String accountType;
+    final String accountNumber = "123456789"; //constant account number which cannot be changed.
+    AccountType accountType;
+    double accountBalance;
     String accountHolderName;
     String accountMaturity;
     String routingNumber;
@@ -26,7 +27,7 @@ public class BankAccount {
 
 /* States
     -> Account Number (String)
-    -> Account Type (String)
+    -> Account Type (Account Type) a class which will hold fixed set of object.
     -> Account Holder Name (String)
     -> Account Maturity (String)
     -> Routing Number (String) for reuse
