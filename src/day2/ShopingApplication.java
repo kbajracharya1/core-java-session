@@ -66,6 +66,22 @@ public class ShopingApplication {
         bodyAndMassageOils.isLeaf = true;
         bodyAndMassageOils.slug = "body-oils";
 
+        BankAccount buyerAccount = new BankAccount();
+        buyerAccount.accountHolderName = "Kritish";
+        buyerAccount.routingNumber = "6546544";
+        buyerAccount.phoneNumber = "656565";
+
+        Buyer buyerPortal = new Buyer();
+        buyerPortal.buyerId = "645656df";
+        buyerPortal.buyerName = "kritish";
+        buyerPortal.buyerAddress = "Georgia";
+
+
+
+
+
+
+
 
     }
 }
