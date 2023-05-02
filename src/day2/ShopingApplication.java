@@ -1,5 +1,6 @@
 package day2;
 
+import javax.lang.model.element.Name;
 import javax.swing.*;
 
 public class ShopingApplication {
@@ -38,7 +39,7 @@ public class ShopingApplication {
         menClothing.isLeaf = false;
         menClothing.slug = "mens-clothing";
 
-        Menu casualTops =new Menu();
+        Menu casualTops = new Menu();
         casualTops.menuId = 6;
         casualTops.menuName = "Casual Tops";
         casualTops.parentMenuId = 5;
@@ -76,12 +77,12 @@ public class ShopingApplication {
         buyerPortal.buyerName = "kritish";
         buyerPortal.buyerAddress = "Georgia";
 
-
-
-
-
-
-
-
     }
+
+    public boolean buyerFunction(Buyer buyerId, double transaction, Buyer toSeller) {
+        return true;
+    }
+
+
 }
+
