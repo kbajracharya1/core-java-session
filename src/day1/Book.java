@@ -11,6 +11,8 @@ public class Book {
     String edition;
     String designer;
     String paperType;
+
+
 }
 
 

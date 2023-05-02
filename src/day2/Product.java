@@ -3,8 +3,8 @@ package day2;
 import java.util.List; //imported library from List.
 
 public class Product {
-    long productId;
-    String sku;
+    public long productId;
+    public String sku;
     String productName;
     double price;
     long quantity;
@@ -16,6 +16,9 @@ public class Product {
     float deliveryPrice;
     long vendorId;
     Rating rating;
+
+
+
 }
 
     /*

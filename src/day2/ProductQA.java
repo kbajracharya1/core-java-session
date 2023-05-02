@@ -8,6 +8,9 @@ public class ProductQA {
     Date questionedTime;
     String answeringUserId;
     Date answeredTime;
+
+
+
 }
 
     /*
